@@ -41,37 +41,37 @@ class Die //models one single dice cube
     rect(myX,myY,100,100);
     if (roll == 1){
       fill(41,35,41);
-      circle(myX+50,myY+50,20);
+      ellipse(myX+50,myY+50,20,20);
     } else if (roll == 2){
       fill(41,35,41);
-      circle(myX+20,myY+20,20);
-      circle(myX+80,myY+80,20);
+      ellipse(myX+20,myY+20,20,20);
+      ellipse(myX+80,myY+80,20,20);
     } else if (roll == 3){
       fill(41,35,41);
-      circle(myX+20,myY+20,20);
-      circle(myX+50,myY+50,20);
-      circle(myX+80,myY+80,20);
+      ellipse(myX+20,myY+20,20,20);
+      ellipse(myX+50,myY+50,20,20);
+      ellipse(myX+80,myY+80,20,20);
     } else if (roll == 4){
       fill(41,35,41);
-      circle(myX+20,myY+20,20);
-      circle(myX+20,myY+80,20);
-      circle(myX+80,myY+20,20);
-      circle(myX+80,myY+80,20);
+      ellipse(myX+20,myY+20,20,20);
+      ellipse(myX+20,myY+80,20,20);
+      ellipse(myX+80,myY+20,20,20);
+      ellipse(myX+80,myY+80,20,20);
     } else if (roll == 5){
       fill(41,35,41);
-      circle(myX+50,myY+50,20);
-      circle(myX+20,myY+20,20);
-      circle(myX+20,myY+80,20);
-      circle(myX+80,myY+20,20);
-      circle(myX+80,myY+80,20);
+      ellipse(myX+50,myY+50,20,20);
+      ellipse(myX+20,myY+20,20,20);
+      ellipse(myX+20,myY+80,20,20);
+      ellipse(myX+80,myY+20,20,20);
+      ellipse(myX+80,myY+80,20,20);
     } else if (roll == 6){
       fill(41,35,41);
-      circle(myX+20,myY+50,20);
-      circle(myX+80,myY+50,20);
-      circle(myX+20,myY+20,20);
-      circle(myX+20,myY+80,20);
-      circle(myX+80,myY+20,20);
-      circle(myX+80,myY+80,20);
+      ellipse(myX+20,myY+50,20,20);
+      ellipse(myX+80,myY+50,20,20);
+      ellipse(myX+20,myY+20,20,20);
+      ellipse(myX+20,myY+80,20,20);
+      ellipse(myX+80,myY+20,20,20);
+      ellipse(myX+80,myY+80,20,20);
     }
   }
 }
